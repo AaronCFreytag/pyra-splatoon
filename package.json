@@ -1,0 +1,21 @@
+{
+  "name": "pyra-splatoon",
+  "version": "1.0.0",
+  "description": "Various splatoon functions using splatoon2.ink and Pyra",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint \"**.js\""
+  },
+  "author": "Aaron Freytag",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "got": "^8.3.0",
+    "superstruct": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
+  }
+}
